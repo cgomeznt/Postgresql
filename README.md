@@ -24,6 +24,8 @@ Log con 10gb estaría bien (hasta menos)
 El wall de 40gb,depende de los tamaños que defina en el postgres.cnf
 Y los backup con 10gb estaría bien, si crece el data, este debe aumentar tambien
 
+https://www.postgresql.org/docs/current/storage-file-layout.html
+
 https://www.oreilly.com/library/view/the-database-hackers/9780764578014/ch024-sec005.html#:~:text=Configuration%20files%20and%20the%20databases,PGDATA%20directory%20contains%20three%20subdirectories.
 
 https://pgtune.leopard.in.ua/
