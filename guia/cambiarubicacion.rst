@@ -19,7 +19,7 @@ Como podemos ver nuestro data_directory se encuentra configurado en /var/lib/pos
   
 Copiamos los datos::
 
-  sync -av /var/lib/postgresql /psql
+  rsync -av /var/lib/postgresql/15 /psql
   
 renombramos la carpeta::
 
@@ -27,7 +27,7 @@ renombramos la carpeta::
    
 Ahora editamos la configuración de postgresq (/etc/postgresql/15/main/postgresql.conf) l y modificamos el atributo data_directory::
 
-  vi data_directory = '/psql/postgresql/13/main' 
+  vi data_directory = '/postgres/15/main' 
   
 Iniciamos la base de datos::
 
@@ -39,7 +39,7 @@ Comprobamos nuevamente la configuaración::
   postgres=# SHOW data_directory;
         data_directory
   --------------------------
-   /psql/postgresql/13/main
+   /psql/postgres/15/main
   (1 fila)
 
   postgres=#
