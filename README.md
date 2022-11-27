@@ -13,7 +13,7 @@ los siguientes fs
 
   /postgres/log
 
-  /postgres/wall
+  /postgres/wal
 
   /postgres/backup
 
@@ -23,7 +23,7 @@ los siguientes fs
 
   El log, el log de base de datos, y los de auditoria si lo activa
 
-  Los wall de los log trasanccionales, tipo los archive de oracle
+  Los wal de los log trasanccionales, tipo los archive de oracle
 
   backup para los respaldos
 
