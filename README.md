@@ -7,35 +7,35 @@ Base de Datos Relacional Postgresql
 
 los siguientes fs
 
-/postgres/binarios
+  /postgres/binarios
 
-/postgres/data
+  /postgres/data
 
-/postgres/log
+  /postgres/log
 
-/postgres/wall
+  /postgres/wall
 
-/postgres/backup
+  /postgres/backup
 
-Binarios donde estarán los binarios de postgres
+  Binarios donde estarán los binarios de postgres
 
-Data, los archivos físicos de la base de datos
+  Data, los archivos físicos de la base de datos
 
-El log, el log de base de datos, y los de auditoria si lo activa
+  El log, el log de base de datos, y los de auditoria si lo activa
 
-Los wall de los log trasanccionales, tipo los archive de oracle
+  Los wall de los log trasanccionales, tipo los archive de oracle
 
-backup para los respaldos
+  backup para los respaldos
 
-Binarios 10gb
+  Binarios 10gb
 
-Data depende de cuanto estiman crecer con 15 puede ir bien.
+  Data depende de cuanto estiman crecer con 15 puede ir bien.
 
-Log con 10gb estaría bien (hasta menos)
+  Log con 10gb estaría bien (hasta menos)
 
-El wall de 40gb,depende de los tamaños que defina en el postgres.cnf
+  El wall de 40gb,depende de los tamaños que defina en el postgres.cnf
 
-Y los backup con 10gb estaría bien, si crece el data, este debe aumentar tambien
+  Y los backup con 10gb estaría bien, si crece el data, este debe aumentar tambien
 
 
 
