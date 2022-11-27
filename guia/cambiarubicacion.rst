@@ -31,7 +31,7 @@ Ahora editamos la configuración de postgresq (/etc/postgresql/15/main/postgresq
   
 Iniciamos la base de datos::
 
-  sudo systemctl start postgresql
+  systemctl start postgresql
   
 Comprobamos nuevamente la configuaración::
 
