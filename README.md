@@ -4,6 +4,9 @@ Base de Datos Relacional Postgresql
 * [Instalar PostgreSQL](guia/installpostgresql.rst)
 * [PostgreSQL File Structure](guia/filestructure.rst)
 * [Parametros de configuracion segun el system](guia/parametroconf.rst)
+* [Cambiar la ubicación de la carpeta de datos de PostgreSQL](guia/cambiarubicacion.rst)
+
+Cambiar la ubicación de la carpeta de datos de PostgreSQL
 
 los siguientes fs
 
