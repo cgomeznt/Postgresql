@@ -11,37 +11,18 @@ Base de Datos Relacional Postgresql
 
 Cambiar la ubicación de la carpeta de datos de PostgreSQL
 
-los siguientes fs
+FileSystem su tamaño
 
-  /postgres/binarios
+  /postgres/binarios  - 10Gb  - donde estarán los binarios de postgres
 
-  /postgres/data
+  /postgres/data      - 15Gb  - los archivos físicos de la base de dato, depende de cuanto estiman crecer con 15 puede ir bien
 
-  /postgres/log
+  /postgres/log       - 10Gb  - log de base de datos, y los de auditoria si lo activa, Log con 10gb estaría bien (hasta menos)
 
-  /postgres/wal
+  /postgres/wal       - 40Gb  - wal de los log trasanccionales, tipo los archive de oracle, depende de los tamaños que defina en el postgres.cnf
 
-  /postgres/backup
+  /postgres/backup    - 15Gb  - backup para los respaldos, por lo general siempre sera igual el tamaño que de data
 
-  Binarios donde estarán los binarios de postgres
-
-  Data, los archivos físicos de la base de datos
-
-  El log, el log de base de datos, y los de auditoria si lo activa
-
-  Los wal de los log trasanccionales, tipo los archive de oracle
-
-  backup para los respaldos
-
-  Binarios 10gb
-
-  Data depende de cuanto estiman crecer con 15 puede ir bien.
-
-  Log con 10gb estaría bien (hasta menos)
-
-  El wall de 40gb,depende de los tamaños que defina en el postgres.cnf
-
-  Y los backup con 10gb estaría bien, si crece el data, este debe aumentar tambien
 
 
 
